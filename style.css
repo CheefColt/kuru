@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Birthstone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body{
+
+    background-color: #BE79DF;
+}
+
+#title{
+
+    display: block;
+    text-align: center;
+    position: relative;
+    font-size: 3rem;
+    top: 2rem;
+    font-family: 'Jua';
+    color: white;
+}
+
+
+.text_button{
+
+
+    position: fixed;
+    bottom: 6rem;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.imgs{
+
+    position: relative;
+    top: 5rem;
+    display: none;
+}
+
+#addani{
+
+    display: block;
+    position: relative;
+    animation: imageani 3s;
+}
+
+#addani_small{
+    display: block;
+    position: relative;
+    animation: imageani 1s;
+}
+
+@keyframes imageani {
+
+    0% {
+        right: -100%;
+      }
+      100% {
+        right: 100%;
+      }
+}
+    
+
+#num{
+
+    position: relative;
+    bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Work Sans';
+    font-weight: 800;
+    color: #1D267D;
+    
+}
+
+#squish{
+
+    font-size: 2rem;
+    font-family: 'jua';
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    border: 0;
+    color: #FFFFFF;
+    background-color: rgb(255, 122, 92,0.5);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition: box-shadow 0.2s, position 0.05s; 
+    
+}
+
+#squish:hover{
+
+    background-color: rgb(255, 122, 92,1);
+    box-shadow: rgba(255, 122, 92, 0.5) 0px 15px 25px, rgba(255, 122, 92, 0.5) 0px 5px 10px;
+    position: relative;
+    bottom: 0.4rem;
+    cursor: pointer;
+}
+
+#squish:active{
+
+    background-color: rgb(255, 122, 92,1);
+    cursor: pointer;
+    box-shadow: none;
+}
+
+
